@@ -10,8 +10,8 @@ Adafruit_BMP280 bmp; // I2C
 #define DHTPIN 17     // Digital pin connected to the DHT sensor
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
-const char* ssid = "FiberHGW_ZTNN5Z_2.4GHz";   // your network SSID (name) 
-const char* password = "qJq3csUtCp";   // your network password
+const char* ssid = "";   // your network SSID (name) 
+const char* password = "";   // your network password
 WiFiClient  client;
 unsigned long myChannelNumber = 1;
 const char * myWriteAPIKey = "27MFNV9UT5I3KO3A";
